@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row-images {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 1em;
+}
+
+.row-images::-webkit-scrollbar {
+  display: none;
+}
+
+h3 {
+  margin-left: 0.2em;
+}
+.row-image {
+  width: 100%;
+  object-fit: contain;
+  max-height: 100px;
+  transition: transform 450ms;
+  margin-right: 0.6em;
+}
+
+.row-image:hover {
+  transform: scale(1.08);
+}
+
+.row-image-large {
+  max-height: 250px;
+}
+
+.main-row {
+  margin-left: 0.2em;
+}
+
+.row-title {
+  color: white !important;
+}

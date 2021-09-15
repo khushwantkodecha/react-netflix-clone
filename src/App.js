@@ -20,7 +20,7 @@ const App = () => {
       <Row title="ROMANCE" fetchUrl={requests.romance_movies} />
       <Row title="ACTION" fetchUrl={requests.action_movies} />
       <Row title="HORROR" fetchUrl={requests.horror_movies} />
-      <h1>hello</h1>
+      <h1>hello hello</h1>
       {/* <Row title="DOCUMENTARIES" fetchUrl={requests.documentaries} /> */}
     </div>
   );
